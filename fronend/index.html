@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda - Gestión de Productos</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!--Navbar-->
+    <header class="navbar">
+            <div class="contenedor nav-contenido">
+                <a href="index.html">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+    </header>
+
+    <!--Contenido-->
+        <main class="contenedor">
+            <div class="encabezado-principal">
+                <h1>Sistema de Gestión de Productos</h1>
+                <p>Panel conectado a NODE.js, Express y MySQL</p>
+            </div>
+
+            <div class="panel-tienda">
+                <section class="tarjeta">
+                    <h2 id="tituloFormulario">Registrar Producto</h2>
+                    <form id="formularioProducto">
+                        <input type="hidden" id="ProductoID" value=""/>
+
+                        <div class="campo">
+                            <label for="nombre">Nombre del Producto:</label>
+                            <input type="text" id="nombre" placeholder="EJ:Camiseta" required>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </main>
+    
+</body>
+</html>
